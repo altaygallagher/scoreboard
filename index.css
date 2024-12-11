@@ -1,0 +1,98 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: blue;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+    margin: 0;
+}
+
+.scoreboard {
+    display: flex;
+    justify-content: space-around;
+    width: 60%;
+    background-color: #243b55;
+    border-radius: 10px;
+    padding: 20px;
+    color: #fff;
+    margin-bottom: 20px;
+}
+
+.team {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.team h2 {
+    margin: 0;
+}
+
+.score {
+    font-size: 4em;
+    margin: 10px 0;
+}
+
+.controls button {
+    margin: 5px;
+    padding: 10px 20px;
+    font-size: 1em;
+    border: none;
+    background-color: #ff6b6b;
+    color: white;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.controls button:hover {
+    background-color: #ff4747;
+}
+
+.additional-features {
+    text-align: center;
+}
+
+.additional-features button {
+    padding: 10px 20px;
+    font-size: 1em;
+    border: none;
+    background-color: #4CAF50;
+    color: white;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.additional-features button:hover {
+    background-color: #45a049;
+}
+
+.counters {
+    display: flex;
+    justify-content: center;
+    margin-top: 10px;
+}
+
+.counter {
+    margin: 0 10px;
+}
+
+.counter button {
+    margin: 5px;
+    padding: 5px 10px;
+    font-size: 1em;
+    border: none;
+    background-color: #ff6b6b;
+    color: white;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.counter button:hover {
+    background-color: #ff4747;
+}
+
+.leader {
+    background-color: #4CAF50;
+}
